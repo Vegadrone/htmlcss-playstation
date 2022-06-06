@@ -15,7 +15,7 @@ body {
     width: 100px;
 }
 
-.jumbo {
+.bg-returnal {
     background-image:url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,4 +38,14 @@ body {
     width: 100%;
 }
 
+.bg-it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.it-takes-two-logo {
+    width: 100px;
+}
 
