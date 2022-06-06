@@ -1,3 +1,33 @@
 body {
-    background-color: aqua;
+    font-family: Arial, Helvetica;
 }
+
+.header-sony {
+    background-color: black;
+    justify-content: flex-end;
+}
+
+.sony-logo {
+    width: 100px;
+}
+
+.returnal-logo {
+    width: 100px;
+}
+
+.jumbo {
+    background-image:url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ms_card-container {
+    width: 100%;
+}
+
+.thumbnail {
+    width: 300px;
+}
+
+
