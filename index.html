@@ -13,7 +13,7 @@
 <body>
 
 <!-- ################# HEADER ################# -->
-    <header class="top-fixed">
+    <header class="fixed-top">
         <div class="header-sony d-flex p-3">
             <img class="sony-logo" src="./img/sony_logo.svg" alt="sony_logo">
         </div>
@@ -63,7 +63,8 @@
 
     <main>
 <!-- @@@@@@@@@@@@@@ RETURNAL HERO @@@@@@@@@@@@@@-->
-        <section id="returnal-hero">
+
+        <section id="returnal-hero" class="ms_mt">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 bg-returnal">
@@ -113,7 +114,8 @@
         </section>
 
  <!-- @@@@@@@@@@@@@@ PS5 @@@@@@@@@@@@@@-->
-        
+<!-- verifica che si possano cambiare i col numerati in col e basta con i BP 
+e chiedi degli span i direction column che non vanno sotto dopo un certo BP-->
         <section id="ps5" class="mt-5">
             <div class="container">
                 <div class="ps5-text text-center">
@@ -182,7 +184,7 @@
         </section>
 
 <!-- @@@@@@@@@@@@@@ NEW GAMES @@@@@@@@@@@@@@-->
-
+<!-- chiedi dei margini tra i titoli e le immagini -->
         <section id="new-games" class="pt-4 bg-dark">
             <div class="container">
                 <h2 class="text-light">Nuove uscite</h2>
@@ -252,8 +254,128 @@
             </div>
         </section>
 
+<!-- @@@@@@@@@@@@@@ PS4 @@@@@@@@@@@@@@-->
 
+        <section id="ps4" class="mt-5">
+            <div class="container">
+                <div class="ps4-text text-center">
+                    <h1>Eplora PlayStation 4</h1>
+                    <p>Giochi incredibili e intrattenimento senza fine.
+                        Non c'è mai stato un momento migliore per giocare sulla tua PS4.
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <img class="ps4-sec-img" src="./img/ps4-slim-homepage-image-block.jpg" alt="ps4.jpg">
+                            <h2>PlayStation 4</h2>
+                            <p>Giochi incredibili live su PS4, con 1TB di spazio archiviazione.</p>
+                            <button type="button" class="btn btn-primary rounded-5 mt-2 mb-5">Scopri di più</button>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img class="ps4-sec-img" src="./img/double11-202010-tw-psvr.jpg" alt="ps-vr.jpg">
+                            <h2>PlayStation VR</h2>
+                            <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
+                            <button type="button" class="btn btn-primary rounded-5 mt-2 mb-5">Scopri di più</button>
+
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <img class="ps4-sec-img" src="./img/dualshock-4-listing-thumb.jpg" alt="dualshock-4.jpg">
+                            <h2>Accessori</h2>
+                            <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
+                            <button type="button" class="btn btn-primary rounded-5 mt-2 mb-5">Scopri di più</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- @@@@@@@@@@@@@@ PS PLUS @@@@@@@@@@@@@@-->
+
+        <section id="ps-plus" class="bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img class="ps-plus-img" src="./img/ps-plus-logo.png" alt="ps-plus-logo.png">
+                        <span>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi
+                            mensili, sconti esclusivi e altro ancora.
+                        </span><br>
+                        <button type="button" class="btn btn-primary rounded-5 mt-2 mb-5">Esplora PlayStation Plus</button>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img class="ps-plus-img" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- @@@@@@@@@@@@@@ PS STORE NEW @@@@@@@@@@@@@@-->
+
+        <section id="ps-store-new" class="mt-5">
+            <div class="container">
+                <h1 class="text-center">Nuovi sconti sul PlayStation Store</h1>
+                <p class="text-center"> Sconti pazzeschi, collezioni curate e soldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</p>
+               <div class="row g-3">
+                    <div class="col-12 col-md-4">
+                        <img class="ps-plus-img" src="./img/playstation-store-games-under-20-spotlight.jpg" alt="ps-store">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img class="ps-plus-img" src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="ps-store-golden-week.jpg">
+                    </div>
+                    <div class="col-12 col-md-4 mb-5">
+                        <img class="ps-plus-img" src="./img/playstation-store-free-to-play-spotlight.png" alt="free-to-play.png">
+                    </div>
+               </div>
+            </div>
+        </section>
+
+<!-- @@@@@@@@@@@@@@ PS NOW @@@@@@@@@@@@@@-->
+        
+        <section id="ps-plus" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img class="ps-plus-img" src="./img/ps-now-logo-two-column.png" alt="ps-plus-logo.png">
+                        <span class="text-light">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4,
+                            PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.
+                        </span><br>
+                        <button type="button" class="btn btn-primary rounded-5 mt-2 mb-5">Esplora PlayStation Now</button>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img class="ps-plus-img" src="./img/ps-now-april-featured-image-block.png" alt="ps-now-april.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- @@@@@@@@@@@@@@ SOCIAL @@@@@@@@@@@@@@-->
+
+        <section id="social" class="mt-5">
+            <div class="container">
+                <h2 class="text-center">Seguici sui social media</h2>
+                <div class="ms_container">
+                    <div class="row g-3">
+                        <div class="col-6 col-sm-3">
+                            <img class="ps-plus-img" src="./img/twitter.jpg" alt="twitter.jpg">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img class="ps-plus-img" src="./img/facebook.jpg" alt="facebook.jpg">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img class="ps-plus-img" src="./img/instagram.jpg" alt="instagram.jpg">
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <img class="ps-plus-img" src="./img/youtube.png" alt="youtube.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+<!-- ################# FOOTER ################# -->
+    <footer class="ms_bg-footer">
+
+    </footer>
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
