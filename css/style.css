@@ -22,12 +22,8 @@ body {
     background-position: center;
 }
 
-.ms_card-container {
-    width: 100%;
-}
-
 .thumbnail {
-    width: 300px;
+    width:100%;
 }
 
 
