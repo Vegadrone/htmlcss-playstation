@@ -19,19 +19,11 @@ body {
     width: 100px;
 }
 
-.returnal-logo {
-    width: 100%;
-}
-
 .bg-returnal {
     background-image:url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.thumbnail {
-    width:100%;
 }
 
 .thumbnail-hardware {
@@ -42,10 +34,6 @@ body {
     width: 100%;
 }
 
-.ps5-img {
-    width: 100%;
-}
-
 .bg-it-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
@@ -53,16 +41,13 @@ body {
     background-position: center;
 }
 
-.it-takes-two-logo {
-    width: 100%;
-}
-
-.ps4-sec-img {
-    width: 100%;
-}
-
 .ms_container {
     width: 80%;
+    margin: 0 auto;
+}
+
+.ms_ps-container {
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -110,7 +95,16 @@ ul li a {
     background-color:var(--bg-footer);
 }
 
-.search-icon {
-    
+footer ul {
+    list-style: none;
 }
 
+.thumbnail {
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.thumbnail:hover {
+    transform: translate(0px, -15px);
+    cursor:pointer;
+}
