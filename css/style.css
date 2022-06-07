@@ -1,5 +1,9 @@
 :root  {
-    color: var();
+    --bg-now:#161c3b;
+    --bg-plus:#bebcbb;
+    --bg-footer:#00439c;
+    --bg-new-games:#1f1f1e;
+    --bg-header-sony:#000;
 }
 
 body {
@@ -7,7 +11,7 @@ body {
 }
 
 .header-sony {
-    background-color: black;
+    background-color: var(--bg-header-sony);
     justify-content: flex-end;
 }
 
@@ -16,7 +20,7 @@ body {
 }
 
 .returnal-logo {
-    width: 100px;
+    width: 100%;
 }
 
 .bg-returnal {
@@ -31,7 +35,7 @@ body {
 }
 
 .thumbnail-hardware {
-    width: 100px;
+    width: 95px;
 }
 
 .img-container {
@@ -50,14 +54,10 @@ body {
 }
 
 .it-takes-two-logo {
-    width: 100px;
-}
-
-.ps4-sec-img {
     width: 100%;
 }
 
-.ps-plus-img {
+.ps4-sec-img {
     width: 100%;
 }
 
@@ -66,15 +66,13 @@ body {
     margin: 0 auto;
 }
 
-.ms_bg-footer {
-    background-color: #0b2a72;
-}
-
 .ms_mt {
     margin-top: 100px;
 }
 
-.ms_bg
+.ms_pt {
+    padding-top: 350px;
+}
 
 ul li a {
     text-decoration: none;
@@ -96,4 +94,19 @@ ul li a {
     width: 120px;
 }
 
+.bg-new-games {
+    background-color: var(--bg-new-games);
+}
+
+.bg-ps-plus {
+    background-color: var(--bg-plus);
+}
+
+.bg-ps-now {
+    background-color: var(--bg-now);
+}
+
+.bg-footer {
+    background-color:var(--bg-footer);
+}
 
