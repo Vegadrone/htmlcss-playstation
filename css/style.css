@@ -1,3 +1,7 @@
+:root  {
+    color: var();
+}
+
 body {
     font-family: Arial, Helvetica;
 }
@@ -70,7 +74,26 @@ body {
     margin-top: 100px;
 }
 
+.ms_bg
+
 ul li a {
     text-decoration: none;
 }
+
+.w-img {
+    width: 100%;
+}
+
+.sie-logo {
+    width: 150px;
+}
+
+.language-globe {
+    width: 20px;
+}
+
+.ps-footer-logo {
+    width: 120px;
+}
+
 
