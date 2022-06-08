@@ -31,6 +31,18 @@ body {
     width: 95px;
 }
 
+.ps-5-img {
+    opacity: 0.5;
+}
+
+.ps-5-img:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-bottom: 2px solid var(--dot-color);
+}
+
+
+
 .img-container {
     width: 100%;
 }
