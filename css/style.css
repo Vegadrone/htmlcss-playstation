@@ -158,3 +158,13 @@ footer ul {
 .dot-color {
     color: var(--dot-color);
 }
+
+@media screen and (max-width: 767px) {   
+    #ps-plus{
+        padding: 30px 0px;
+    }
+
+    #ps-now {
+        padding: 30px 0px;
+    }
+}
