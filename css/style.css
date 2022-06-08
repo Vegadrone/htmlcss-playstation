@@ -143,6 +143,10 @@ footer ul {
     color: var(--dot-color);
 }
 
+.no-border {
+    border: none !important;
+}
+
 @media screen and (max-width: 767px) {   
     #ps-plus{
         padding: 30px 0px;
