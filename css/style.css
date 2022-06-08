@@ -124,6 +124,11 @@ footer ul {
     outline: 3px solid #0d6efd;
 }
 
+.border-box-shadow {
+    border: 3px solid white;
+    box-shadow: 1px #0d6efd inset;
+}
+
 .dropdown-menu li {
     display: inline-block
 }
